@@ -1,0 +1,10 @@
+# ADD these lines to your existing requirements.txt (I was not given that file, so I did not replace it).
+# Versions are the ones the tests ran against.
+pdfplumber==0.11.9     # PDF text-layer reading (pulls in pdfminer.six and Pillow)
+openpyxl==3.1.5        # .xlsx reading
+
+# OPTIONAL - only if teachers will upload old Excel 97-2003 .xls files.
+# Not installed/tested in my sandbox. Without it, .xls uploads show "Save as .xlsx" guidance.
+xlrd==2.0.1
+
+# NOT needed any more: any OCR package, pytesseract, anthropic, or Tesseract system install.
